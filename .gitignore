@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Java crash logs and generated class archives
+hs_err_pid*.log
+replay_pid*.log
+*.class
+
+# Local IDE metadata
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local application data
+*.db
+*.db-shm
+*.db-wal
+/images/
