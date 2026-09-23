@@ -41,7 +41,6 @@ jobs:
             --input package-input \
             --main-jar Films-List-1.0-SNAPSHOT.jar \
             --main-class me.fotis.App \
-            --class-path 'lib/*' \
             --dest dist \
             --vendor 'Fotis Kosmidis' \
             --description 'A personal desktop film tracker' \
@@ -86,7 +85,6 @@ jobs:
             --input package-input `
             --main-jar Films-List-1.0-SNAPSHOT.jar `
             --main-class me.fotis.App `
-            --class-path 'lib/*' `
             --dest dist `
             --vendor 'Fotis Kosmidis' `
             --description 'A personal desktop film tracker' `
