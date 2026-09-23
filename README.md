@@ -33,6 +33,15 @@ mvn javafx:run
 
 The application creates its local data directory on first launch. No external database server or account is required.
 
+## Download installers
+
+To install the application without Java or Maven, open the repository's [Releases](https://github.com/fotiskosmidis/Films-List/releases) page and download the installer for your operating system:
+
+- **Debian, Ubuntu, and Linux Mint:** download the `.deb` file, then run `sudo apt install ./Films-List_*.deb` from the directory containing it.
+- **Windows:** download the `.exe` installer and follow the setup wizard.
+
+New installers are created automatically whenever a version tag such as `v1.0.0` is pushed to GitHub. The source-based Maven instructions below are intended for developers.
+
 ## Build and test
 
 Compile the project:
